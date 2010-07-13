@@ -5,7 +5,7 @@ Allows for testing of sqlite database in a browser that supports the html5 datab
 
 Some of the console stuff was ripped from firebug.lite (by way of ibug...)
 
-_This is rough around the edges._
+_This is a quick & dirty little test app to figure some stuff out about HTML5 databases, and kind of a test of github._
 
 Tested running in Chrome and Safari.
 
@@ -39,9 +39,11 @@ Success adding employee
 
 * Run queries like:
 
-- SELECT * FROM title
-- SELECT * FROM employee WHERE employee_id = ?; [1]
-- SELECT * FROM employee WHERE title_id = ? AND name LIKE ?;[5,"L%"] 
-- INSERT INTO title VALUES (6, ?); ["Head Honcho"] 
+<code>
+SELECT * FROM title
+SELECT * FROM employee WHERE employee_id = ?; [1]
+SELECT * FROM employee WHERE title_id = ? AND name LIKE ?;[5,"L%"] 
+INSERT INTO title VALUES (6, ?); ["Head Honcho"] 
+</code>
 
 * Extend, and enjoy!
