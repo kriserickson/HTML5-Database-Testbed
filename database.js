@@ -50,7 +50,8 @@ function Database()
 
         var employees = [['Chad Pinkerton', '2007/1/20', 1], ['Patty Stinson', '2007/1/21', 2],
             ['Johnny Pettiford', '2007/5/20', 3], ['Julia Sikes', '2007/3/19', 4], ['Norma Mcshane', '2009/5/11', 4],
-            ['Manuel Staats', '2008/3/1', 5], ['Iris Maloy','2009/7/1', 5], ['Laurie Claycomb', '2007/2/11', 5]];
+            ['Manuel Staats', '2008/3/1', 5], ['Iris Maloy','2009/7/1', 5], ['Laurie Claycomb', '2007/2/11', 5], 
+            ['Larray Johnson', '2009/5/1', 5]];
 
         for (i = 0; i < employees.length; i++)
         {
